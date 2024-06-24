@@ -25,9 +25,9 @@ intellij {
 
 // 配置插件
 changelog{
-    header.set(provider { version.get() })
+    header.set(provider { version.get() }) //这里可以使用正则匹配
     groups.empty()
-    repositoryUrl = "https://plugin.com"
+    repositoryUrl = "https://plugin.com" //这里配置插件地址
 }
 
 tasks {
