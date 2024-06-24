@@ -11,5 +11,3 @@
 
 <img src="doc/assets/douyin.png" style="width:300px" alt="抖音码"/>
 
-![](doc/assets/douyin.png)
-
