@@ -17,6 +17,7 @@
         学习IDEA插件开发，积累插件开发经验。
         <br/>>_ Action操作
         <br/>>_ Changelog插件使用
+        <br/>>_ 设置页面处理
     ]]></description>
 
     <!-- Product and plugin compatibility requirements.
@@ -26,7 +27,11 @@
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-
+        <applicationConfigurable
+            parentId="tools"
+            id="com.liuujun.idea.configurable.DemoConfigurable"
+            instance="com.liuujun.idea.configurable.DemoConfigurable"
+            displayName="Demo设置"/>
     </extensions>
     <actions>
         <action id="ACTION_DEMO" class="com.liuujun.idea.action.ActionDemo" text="actionDemo">
