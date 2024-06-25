@@ -6,6 +6,7 @@
 
 - Action操作
 - changelog使用
+- 设置页面使用
 
 ## 视频资料
 
