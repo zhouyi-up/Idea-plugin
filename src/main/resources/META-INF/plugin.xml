@@ -32,6 +32,8 @@
             id="com.liuujun.idea.configurable.DemoConfigurable"
             instance="com.liuujun.idea.configurable.DemoConfigurable"
             displayName="Demo设置"/>
+
+        <notificationGroup displayType="BALLOON" id="PLUGIN-DEMO-ID"/>
     </extensions>
     <actions>
         <action id="ACTION_DEMO" class="com.liuujun.idea.action.ActionDemo" text="actionDemo">
