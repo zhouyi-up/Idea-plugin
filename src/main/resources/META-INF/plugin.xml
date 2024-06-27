@@ -45,8 +45,10 @@
             <add-to-group group-id="ToolsMenu"
                           anchor="last"/>
 
-            <action id="ACTION_DEMO" class="com.liuujun.idea.action.ActionDemo" text="测试消息通知">
-            </action>
+            <action id="ACTION_DEMO" class="com.liuujun.idea.action.ActionDemo" text="测试消息通知"/>
+
+            <action class="com.liuujun.idea.dialog.DialogActionDemo"
+                    id="DIALOG_ACTION_DEMO" text="对话框"/>
         </group>
     </actions>
 </idea-plugin>
