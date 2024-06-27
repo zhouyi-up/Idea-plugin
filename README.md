@@ -1,5 +1,10 @@
 # Idea-Plugin-Study
- 
+
+![GitHub last commit](https://img.shields.io/github/last-commit/zhouyi-up/Idea-plugin)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/zhouyi-up/Idea-plugin)
+![](https://img.shields.io/badge/JDK-17-blue)
+
+
 这是一个IDEA插件开发学习仓库，还在不断更新中。
 
 ## 目前已实现
