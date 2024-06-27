@@ -10,6 +10,7 @@ public class DemoConfigurableView {
 
     public DemoConfigurableView(){
         mainPanel = FormBuilder.createFormBuilder()
+                .addLabeledComponent("属性A", new JTextField())
                 .getPanel();
     }
 
