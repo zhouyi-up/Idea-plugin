@@ -35,9 +35,18 @@
 
         <notificationGroup displayType="BALLOON" id="PLUGIN-DEMO-ID"/>
     </extensions>
+
     <actions>
-        <action id="ACTION_DEMO" class="com.liuujun.idea.action.ActionDemo" text="actionDemo">
-            <add-to-group group-id="ToolsMenu" anchor="last"/>
-        </action>
+        <group
+            id="com.liuujun.idea.TestGroup"
+            popup="true"
+            icon="AllIcons.Actions.GroupBy"
+            text="测试">
+            <add-to-group group-id="ToolsMenu"
+                          anchor="last"/>
+
+            <action id="ACTION_DEMO" class="com.liuujun.idea.action.ActionDemo" text="测试消息通知">
+            </action>
+        </group>
     </actions>
 </idea-plugin>
