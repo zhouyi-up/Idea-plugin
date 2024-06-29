@@ -34,6 +34,11 @@
             displayName="Demo设置"/>
 
         <notificationGroup displayType="BALLOON" id="PLUGIN-DEMO-ID"/>
+
+        <toolWindow factoryClass="com.liuujun.idea.toolswindow.DemoToolWindowFactory"
+                    id="DEMO_TOOLWINDOW"
+                    icon="AllIcons.Actions.Stub"
+                    anchor="right"/>
     </extensions>
 
     <actions>
