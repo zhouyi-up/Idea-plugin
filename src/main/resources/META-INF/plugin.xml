@@ -39,6 +39,9 @@
                     id="DEMO_TOOLWINDOW"
                     icon="AllIcons.Actions.Stub"
                     anchor="right"/>
+
+        <statusBarWidgetFactory id="DEMO_STATUS_ID"
+                                implementation="com.liuujun.idea.statusbar.DemoStatusBarWidgetFactory"/>
     </extensions>
 
     <actions>
