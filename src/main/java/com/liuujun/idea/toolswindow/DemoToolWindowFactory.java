@@ -14,7 +14,7 @@ public class DemoToolWindowFactory implements ToolWindowFactory {
     public void createToolWindowContent(@NotNull Project project, @NotNull ToolWindow toolWindow) {
 
         Content content = ContentFactory.getInstance().createContent(
-                new JLabel("我是一个小组件....."),
+                new com.liuujun.idea.toolswindow.ToolWindow(),
                 "",
                 false
         );
